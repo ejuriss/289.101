@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+/*
+a wildcard selector for outlining all of your elements
+you may find this handy for visualising divs
+remove it when you are done, or if you don't want it
+*/
+
+body {
+background-color: #82DDB5;
+background-image: url('img/illustration.gif'), url('img/texture.jpg');
+background-position: center 280px, left top;
+background-repeat: no-repeat, repeat-x;
+background-size: 800px, auto;
+font-family: 'Quicksand', sans-serif;
+margin: 0;
+}
+
+#nav {
+background-color: #6B9;
+border-bottom: 2px dashed #487;
+color: white;
+font-weight: 700;
+padding: 20px 0;
+text-align: center;
+word-spacing: 2em;
+
+}
+
+nav ul a{
+    color: white;
+    text-decoration: none;
+}
+
+#header {
+text-align: center;
+margin-top: 40px;
+}
+
+#logo {
+max-width: 360px;
+width: 100%;
+}
+
+#description, #date {
+max-width: 220px;
+width: 100%;
+}
+
+.register_btn {
+background-color: #E43;
+border: 2px dashed #A43;
+border-radius: 2em;
+color: #FFF;
+cursor: pointer;
+display: inline-block;
+font-weight: bold;
+margin-top: 25px;
+margin-bottom: 350px;
+padding: 15px 30px;
+}
+
+.biggertext{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.rightimg{
+    margin-left: 20px;
+}
+
+#what{
+    background-color: rgba(191, 235, 218, 0.83);
+    color: #0c7588;
+    padding: 35px 470px 35px 470px;
+    text-align: center;
+}
+
+#why{
+    background-color: rgb(162, 224, 200);
+    color: #0c7588;
+    padding: 35px 470px 35px 470px;
+    text-align: center;
+    
+}
+
+#where{
+    background-image: url('img/map.gif');
+    background-size: 1700px, auto;
+    background-repeat: no-repeat, repeat-x;
+    color: #be248e;
+    text-align: center;
+    padding: 50px;
+    word-spacing: 2px;
+}
+
+.alignright{
+    text-align: right;
+    margin: 70px 200px 500px 200px;
+    font-size: 17px;
+    float: auto;
+}
+
+.alignleft{
+    text-align: left;
+}
+
+#when{
+    background-color: #148e8e;
+    background-image: url('img/wires.png');
+    background-size: 570px;
+    background-position: center, 280px;
+    background-repeat: repeat;
+    color: white;
+    padding: 35px 470px 35px 470px;
+    text-align: center;
+    padding: 50px;
+    word-spacing: 2px;
+}
+
+.dashedborder{
+    border-bottom: 2px dashed white;
+    padding-bottom: 20px;
+}
+
+article {
+    text-align: left;
+    padding: 10px 400px 10px 400px;
+
+}
+
+#who{
+    background-color: white;
+    color: #0c7588;
+    padding: 35px 515px 35px 515px;
+    text-align: center;
+    
+}
+
+#footer{
+    background-color: #82DDB5;
+    text-align: center;
+    padding: 5px;
+}
